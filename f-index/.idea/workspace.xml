@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67968c00-2065-4af7-9a98-d8ba6cad3878" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu_b</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/6-3信息公告.html" />
+        <option value="$PROJECT_DIR$/6-4QQ錢包1.html" />
+        <option value="$PROJECT_DIR$/6-4QQ錢包2.html" />
+        <option value="$PROJECT_DIR$/6-4在線支付1.html" />
+        <option value="$PROJECT_DIR$/6-4在線支付2.html" />
+        <option value="$PROJECT_DIR$/6-4微信快捷1.html" />
+        <option value="$PROJECT_DIR$/6-4微信快捷2.html" />
+        <option value="$PROJECT_DIR$/6-4微信快捷3.html" />
+        <option value="$PROJECT_DIR$/6-4支付寶1.html" />
+        <option value="$PROJECT_DIR$/6-4支付寶3.html" />
+        <option value="$PROJECT_DIR$/6-4銀行轉帳1.html" />
+        <option value="$PROJECT_DIR$/6-4銀行轉帳2.html" />
+        <option value="$PROJECT_DIR$/6-4銀行轉帳3.html" />
+        <option value="$PROJECT_DIR$/6-5申請提款1.html" />
+        <option value="$PROJECT_DIR$/6-5申請提款2.html" />
+        <option value="$PROJECT_DIR$/6-6資金轉帳.html" />
+        <option value="$PROJECT_DIR$/6-7帐户历史纪录.html" />
+        <option value="$PROJECT_DIR$/6-8紅利領取1.html" />
+        <option value="$PROJECT_DIR$/6-8紅利領取2.html" />
+        <option value="$PROJECT_DIR$/6-8紅利領取3.html" />
+        <option value="$PROJECT_DIR$/help-PC實名認證.html" />
+        <option value="$PROJECT_DIR$/help-PC手機認證.html" />
+        <option value="$PROJECT_DIR$/help-PC提款密碼.html" />
+        <option value="$PROJECT_DIR$/help-PC郵箱認證.html" />
+        <option value="$PROJECT_DIR$/help-WAP存款.html" />
+        <option value="$PROJECT_DIR$/help-WAP實名認證.html" />
+        <option value="$PROJECT_DIR$/help-WAP微信快捷.html" />
+        <option value="$PROJECT_DIR$/help-WAP手機驗證.html" />
+        <option value="$PROJECT_DIR$/help-WAP提款流程.html" />
+        <option value="$PROJECT_DIR$/help-WAP支付寶.html" />
+        <option value="$PROJECT_DIR$/help-WAP設置提款密碼.html" />
+        <option value="$PROJECT_DIR$/help-WAP註冊流程.html" />
+        <option value="$PROJECT_DIR$/help-WAP轉帳.html" />
+        <option value="$PROJECT_DIR$/help-WAP郵箱驗證.html" />
+        <option value="$PROJECT_DIR$/help-WAP銀行轉帳.html" />
+        <option value="$PROJECT_DIR$/help-存款FAQ.html" />
+        <option value="$PROJECT_DIR$/help-存款流程1.html" />
+        <option value="$PROJECT_DIR$/help-存款流程2.html" />
+        <option value="$PROJECT_DIR$/help-存款流程3.html" />
+        <option value="$PROJECT_DIR$/help-存款流程4.html" />
+        <option value="$PROJECT_DIR$/help-存款流程5.html" />
+        <option value="$PROJECT_DIR$/help-提款FAQ.html" />
+        <option value="$PROJECT_DIR$/help-提款流程.html" />
+        <option value="$PROJECT_DIR$/help-緩存清除_firefox.html" />
+        <option value="$PROJECT_DIR$/help-緩存清除_google.html" />
+        <option value="$PROJECT_DIR$/help-緩存清除_IE.html" />
+        <option value="$PROJECT_DIR$/help-緩存清除_opera.html" />
+        <option value="$PROJECT_DIR$/help-緩存清除_safari.html" />
+        <option value="$PROJECT_DIR$/help-註冊與登錄1.html" />
+        <option value="$PROJECT_DIR$/help-註冊與登錄2.html" />
+        <option value="$PROJECT_DIR$/help-身分證說明.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="f-index" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-index" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-index" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-index" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-index" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67968c00-2065-4af7-9a98-d8ba6cad3878" name="Default" comment="" />
+      <created>1513859061454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513859061454</updated>
+      <workItem from="1513859062925" duration="1791000" />
+      <workItem from="1513868321201" duration="3374000" />
+      <workItem from="1513907197222" duration="6038000" />
+      <workItem from="1514189060761" duration="1503000" />
+      <workItem from="1514251685765" duration="2368000" />
+      <workItem from="1514388138155" duration="43000" />
+      <workItem from="1514425439640" duration="6761000" />
+      <workItem from="1514950957495" duration="9133000" />
+      <workItem from="1515030505532" duration="17668000" />
+      <workItem from="1515116861225" duration="18996000" />
+      <workItem from="1515145366703" duration="692000" />
+      <workItem from="1516265906519" duration="854000" />
+      <workItem from="1516328271482" duration="8678000" />
+      <workItem from="1516673020316" duration="20384000" />
+      <workItem from="1516758689175" duration="15379000" />
+      <workItem from="1516848855159" duration="3905000" />
+      <workItem from="1516949432604" duration="9626000" />
+      <workItem from="1516960365463" duration="112000" />
+      <workItem from="1516960646768" duration="729000" />
+      <workItem from="1517197184072" duration="14994000" />
+      <workItem from="1517280679523" duration="10816000" />
+      <workItem from="1517363761134" duration="8310000" />
+      <workItem from="1517448661507" duration="570000" />
+      <workItem from="1517454549334" duration="191000" />
+      <workItem from="1517536965944" duration="18258000" />
+      <workItem from="1517797916720" duration="16170000" />
+      <workItem from="1517883104067" duration="17445000" />
+      <workItem from="1517983176597" duration="6921000" />
+      <workItem from="1518055734646" duration="627000" />
+      <workItem from="1518141142640" duration="8947000" />
+      <workItem from="1518399870276" duration="16266000" />
+      <workItem from="1518486849888" duration="8482000" />
+      <workItem from="1518573831693" duration="5364000" />
+      <workItem from="1518584603384" duration="1980000" />
+      <workItem from="1519177977401" duration="16190000" />
+      <workItem from="1519265047187" duration="5722000" />
+      <workItem from="1519352230063" duration="14716000" />
+      <workItem from="1519610204372" duration="20565000" />
+      <workItem from="1519695770484" duration="20890000" />
+      <workItem from="1519869318059" duration="18573000" />
+      <workItem from="1519955386822" duration="17219000" />
+      <workItem from="1520213969228" duration="16232000" />
+      <workItem from="1520300694801" duration="18994000" />
+      <workItem from="1520388225082" duration="9226000" />
+      <workItem from="1520475174665" duration="12219000" />
+      <workItem from="1520560809893" duration="5329000" />
+      <workItem from="1520820402259" duration="6414000" />
+      <workItem from="1520837416800" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="447842000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="992" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/6-4QQ錢包2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="763" column="9" lean-forward="false" selection-start-line="763" selection-start-column="9" selection-end-line="763" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4在線支付1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4在線支付2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="763" column="9" lean-forward="false" selection-start-line="763" selection-start-column="9" selection-end-line="763" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4微信快捷1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="767" column="9" lean-forward="false" selection-start-line="767" selection-start-column="9" selection-end-line="767" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4微信快捷2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="785" column="9" lean-forward="false" selection-start-line="785" selection-start-column="9" selection-end-line="785" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4微信快捷3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="770" column="9" lean-forward="false" selection-start-line="770" selection-start-column="9" selection-end-line="770" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4支付寶1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="766" column="9" lean-forward="false" selection-start-line="766" selection-start-column="9" selection-end-line="766" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4支付寶2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4支付寶3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="771" column="9" lean-forward="false" selection-start-line="771" selection-start-column="9" selection-end-line="771" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4銀行轉帳1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="790" column="9" lean-forward="false" selection-start-line="790" selection-start-column="9" selection-end-line="790" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4銀行轉帳2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="838" column="9" lean-forward="false" selection-start-line="838" selection-start-column="9" selection-end-line="838" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-4銀行轉帳3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="807" column="9" lean-forward="false" selection-start-line="807" selection-start-column="9" selection-end-line="807" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-5申請提款1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="770" column="9" lean-forward="false" selection-start-line="770" selection-start-column="9" selection-end-line="770" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-5申請提款2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="748" column="9" lean-forward="false" selection-start-line="748" selection-start-column="9" selection-end-line="748" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-6資金轉帳.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="809" column="9" lean-forward="false" selection-start-line="809" selection-start-column="9" selection-end-line="809" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-7帐户历史纪录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="842" column="9" lean-forward="false" selection-start-line="842" selection-start-column="9" selection-end-line="842" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-8紅利領取1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="721" column="9" lean-forward="false" selection-start-line="721" selection-start-column="9" selection-end-line="721" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-8紅利領取2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="814" column="9" lean-forward="false" selection-start-line="814" selection-start-column="9" selection-end-line="814" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6-8紅利領取3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="787" column="9" lean-forward="false" selection-start-line="787" selection-start-column="9" selection-end-line="787" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-PC實名認證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="578" column="9" lean-forward="false" selection-start-line="578" selection-start-column="9" selection-end-line="578" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-PC手機認證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="577" column="9" lean-forward="false" selection-start-line="577" selection-start-column="9" selection-end-line="577" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-PC提款密碼.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="576" column="9" lean-forward="false" selection-start-line="576" selection-start-column="9" selection-end-line="576" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-PC郵箱認證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="577" column="9" lean-forward="false" selection-start-line="577" selection-start-column="9" selection-end-line="577" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP存款.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="579" column="9" lean-forward="false" selection-start-line="579" selection-start-column="9" selection-end-line="579" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP實名認證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="583" column="9" lean-forward="false" selection-start-line="583" selection-start-column="9" selection-end-line="583" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP微信快捷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="585" column="9" lean-forward="false" selection-start-line="585" selection-start-column="9" selection-end-line="585" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP手機驗證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="581" column="9" lean-forward="false" selection-start-line="581" selection-start-column="9" selection-end-line="581" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP提款流程.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="581" column="9" lean-forward="false" selection-start-line="581" selection-start-column="9" selection-end-line="581" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP支付寶.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="586" column="9" lean-forward="false" selection-start-line="586" selection-start-column="9" selection-end-line="586" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP設置提款密碼.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="580" column="9" lean-forward="false" selection-start-line="580" selection-start-column="9" selection-end-line="580" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP註冊流程.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="585" column="9" lean-forward="false" selection-start-line="585" selection-start-column="9" selection-end-line="585" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP轉帳.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="580" column="9" lean-forward="false" selection-start-line="580" selection-start-column="9" selection-end-line="580" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP郵箱驗證.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="582" column="9" lean-forward="false" selection-start-line="582" selection-start-column="9" selection-end-line="582" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-WAP銀行轉帳.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="586" column="9" lean-forward="false" selection-start-line="586" selection-start-column="9" selection-end-line="586" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款FAQ.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="600" column="9" lean-forward="false" selection-start-line="600" selection-start-column="9" selection-end-line="600" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款流程1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="580" column="9" lean-forward="false" selection-start-line="580" selection-start-column="9" selection-end-line="580" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款流程2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款流程3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="591" column="9" lean-forward="false" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款流程4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="587" column="9" lean-forward="false" selection-start-line="587" selection-start-column="9" selection-end-line="587" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-存款流程5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="585" column="9" lean-forward="false" selection-start-line="585" selection-start-column="9" selection-end-line="585" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-提款FAQ.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="626" column="9" lean-forward="false" selection-start-line="626" selection-start-column="9" selection-end-line="626" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-提款流程.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="592" column="9" lean-forward="false" selection-start-line="592" selection-start-column="9" selection-end-line="592" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-緩存清除_firefox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="582" column="9" lean-forward="false" selection-start-line="582" selection-start-column="9" selection-end-line="582" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-緩存清除_google.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="578" column="9" lean-forward="false" selection-start-line="578" selection-start-column="9" selection-end-line="578" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-緩存清除_IE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="571" column="9" lean-forward="false" selection-start-line="571" selection-start-column="9" selection-end-line="571" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-緩存清除_opera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="571" column="9" lean-forward="false" selection-start-line="571" selection-start-column="9" selection-end-line="571" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-緩存清除_safari.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="571" column="9" lean-forward="false" selection-start-line="571" selection-start-column="9" selection-end-line="571" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-註冊與登錄1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="514" column="0" lean-forward="true" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-身分證說明.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="578" column="9" lean-forward="false" selection-start-line="578" selection-start-column="9" selection-end-line="578" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help-註冊與登錄2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="572" column="9" lean-forward="false" selection-start-line="572" selection-start-column="9" selection-end-line="572" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

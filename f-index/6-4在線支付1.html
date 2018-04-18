@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>資金管理-在線支付</title>
+    <link href="css/f-index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/member.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="http://ianlunn.github.io/Hover/css/hover.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+<header>
+    <div class="inner">
+        <div class="logoarea">
+            <img src="https://i.imgur.com/pyVbYN6.png"/>
+            <span id="nologin">
+          	        <button class="button_login" id="pop1">登录</button>
+          	        <button class="button_login button_login2" id="pop2">注册</button>
+            </span>
+            <div class="loginedarea" id="logined">
+                <ul>
+                    <a href="6-1帳號信息.html"><li class="memberdivideline"><p>个人资料</p></li></a>
+                    <a href="6-4微信快捷1.html"><li class="memberdivideline"><p>资金管理</p></li></a>
+                    <li id="logout"><p>登出</p></li>
+                </ul>
+                <ul>
+                    <li>帐目 : <span>1513515616653.37</span></li>
+                </ul>
+                <ul>
+                    <a href="6-3信息公告.html"><li><p>新讯息<span>(11)</span> </p></li></a>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="navarea">
+            <li class="menu_b">
+                <a href="index.html"><span>HOME</span><br/>首頁</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="casino.html"><span>LIVE CASINO</span><br/>真人娱乐场</a>
+            </li>
+
+
+            <li class="menu_b">
+                <a href="sport.html"><span>SPORT BET</span><br/>体育博彩</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="slot.html"><span>SLOT</span><br/>电子游戏</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="lottery.html"><span>LOTTERY</span><br/>全球彩票</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="finance.html"><span>FINANCIAL</span><br/>金融</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="promotion.html"><span>PROMOTION</span><br/>最新优惠</a>
+            </li>
+
+            <li class="menu_b">
+                <a><span>FORUM</span><br/>博彩论坛</a>
+            </li>
+
+            <li class="menu_b">
+                <a><span>FREE VIDEO</span><br/>免费影片</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="cooperation.html"><span>COOPERATION</span><br/>合作加盟</a>
+            </li>
+
+            <li class="menu_b">
+                <a href="mobile.html"><span>MOBILE BET</span><br/>手机投注</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="popup" id="pop_login" >
+        <div class="popbg">
+            <div class="pop_content">
+                <div class="nowjoin">
+                    <img src="https://i.imgur.com/faEWL8F.png">
+                    <p>还没有帐号吗？<br>立刻<span  id="pop3">加入我们</span></p>
+                </div>
+
+            </div>
+            <div class="pop_content pop_c_R">
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+
+                <div class="passwrong">
+                    <p>帐号密码不正确</p>
+                    <img src="https://i.imgur.com/9j0F0bu.png">
+                </div>
+            </div>
+
+            <div class="loginarea">
+                <p class="logintop">登录您的帐户<br>亚洲最好的博彩网站</p>
+                <hr>
+
+                <div class="inputbox">
+                    <p>用户名&nbsp</p>
+                    <input type="text" name="account" id="account" class="input_account">
+                    <img src="https://i.imgur.com/nrmUgLy.png">
+                </div>
+
+                <div class="inputbox">
+                    <p>密码&nbsp&nbsp&nbsp&nbsp</p>
+                    <input type="password" name="password" id="password" class="input_account">
+                    <img src="https://i.imgur.com/mIvt7B4.png">
+                </div>
+
+                <div class="inputbox2">
+                    <input type="checkbox" name="vehicle" value="check"> <span>记住用户名</span>
+                </div>
+
+                <div class="inputbox2" id="login">
+                    <p>立即登录</p>
+                    <img src="https://i.imgur.com/1d96zJY.png">
+                </div>
+
+                <div class="inputbox3">
+                    <p>忘记密码</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="popup" id="pop_registered">
+        <div class="popbg">
+            <div class="pop_content">
+                <div class="nowjoin">
+                    <img src="https://i.imgur.com/faEWL8F.png">
+                    <p>注册您的帐户<br>亚洲最好的博彩网站<br>已有账号？现在<span id="pop4">登录</span></p>
+                </div>
+
+            </div>
+            <div class="pop_content pop_c_R">
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+
+                <div class="re_input re_input1">
+                    <p>用户名</p>
+                    <input type="text" class="inputrange" >
+                    <span>6到12个字元</span>
+                </div>
+
+                <div class="re_input">
+                    <p>暱称</p>
+                    <input type="text" class="inputrange inputrange2" >
+                    <span>不超过10个中文字元</span>
+                </div>
+
+                <div class="re_input">
+                    <p>密码</p>
+                    <input type="password" class="inputrange inputrange3" >
+                    <span class="passworddetail" style="bottom: 5px;">6到20个字元由大小写字母<br>数字或特别符号组成<br>不能与您的会员帐号类似</span>
+                </div>
+
+                <div class="re_input">
+                    <p>确认密码</p>
+                    <input type="password" class="inputrange inputrange3" >
+                    <span class="passworddetail">因验证需要<br>请重新输入您的密码</span>
+                </div>
+
+                <div class="re_input">
+                    <p>优惠代码</p>
+                    <input type="text" class="inputrange inputrange2" >
+                </div>
+
+                <div class="inputbox2">
+                    <input type="checkbox" name="vehicle" value="check"> <span>我确认我已年满18岁，并已阅读和接受本网站的<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;策略丶隐私权声明，条款和条件。</span>
+                </div>
+
+                <div class="inputbox4">
+                    <p>立即注册</p>
+                    <img src="https://i.imgur.com/1d96zJY.png">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="popup" id="loginsucess">
+        <div class="popbg2">
+            <div class="pop_content2">
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+                <h2>欢迎到法老王娱乐</h2>
+                <p>您只差一步就能够得到世界上最有价值的赔率和优惠红利。您现
+                    在即可使用您的银行帐户来进行存款，我们将给予您只有在法老
+                    王娱乐才有的丰厚现金红利。</p>
+                <div class="moneybutton">存款</div>
+            </div>
+            <div class="pop_content2_bottom">
+                <p>注册时有任何问题，请联繫<span>线上沟通协助</span>或<span>联繫我们</span></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="popup" id="passwordforget">
+        <div class="popbg2">
+            <div class="pop_content3" id="forget1">
+                <div class="noaccount">还没有帐号吗？ 立刻<span>注册</span></div>
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+
+                <div class="stepinforamtion">
+                    <h2>尚未绑定安全工具，无法用於找回密码</h2>
+                    <p>如果忘记用户名，请联系<span>线上客服</span></p>
+                </div>
+                <div class="stepusing">
+                    <div class="usingbox usbox1">
+                        <img src="https://i.imgur.com/jBuNu7a.png">
+                        <div class="boxunderline">
+                            <input type="text" placeholder="用户名">
+                        </div>
+                    </div>
+                    <button class="nextbutton" id="next1">下一步</button>
+                </div>
+            </div>
+            <div class="pop_content3" id="verification_failed">
+                <img src="https://i.imgur.com/HcbVK1F.png" class="warning">
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+
+                <div class="stepinforamtion">
+                    <h2>尚未绑定安全工具，无法用於找回密码</h2>
+                    <p>尚未绑定，请联系<span>线上客服</span></p>
+                </div>
+                <div class="stepusing">
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/1tqEQpd.png">
+                        <div class="boxunderline">
+                            <input type="text" placeholder="手机号码" >
+                            <span>未绑定</span>
+                            <img src="https://i.imgur.com/RuEAN7D.png">
+                        </div>
+                    </div>
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/OeJIbD3.png">
+                        <div class="boxunderline">
+                            <input type="text" placeholder="电子邮箱" >
+                            <span>未绑定</span>
+                            <img src="https://i.imgur.com/RuEAN7D.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_content3" id="verification_OK">
+                <div class="noaccount"><span>1.选择验证方式&nbsp;&nbsp;></span>&nbsp;&nbsp;2.输入验证&nbsp;&nbsp;>&nbsp;&nbsp;3.重置密码</div>
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+
+                <div class="stepinforamtion2">
+                    <h3>请选择验证方式更改密码</h3>
+                </div>
+
+                <div class="stepusing">
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/1tqEQpd.png">
+                        <div class="boxunderline">
+                            <div class="vertype">手机号码</div>
+                            <div class="nextbutton2 buttonbg" id="next2">下一步</div>
+
+                        </div>
+                    </div>
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/OeJIbD3.png">
+                        <div class="boxunderline">
+                            <div class="vertype">电子邮箱</div>
+                            <div class="nextbutton2 buttonbg"  id="next4">下一步</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_content3" id="verification_mail">
+                <div class="noaccount">1.选择验证方式&nbsp;&nbsp;><span>&nbsp;&nbsp;2.输入验证&nbsp;&nbsp;</span>>&nbsp;&nbsp;3.重置密码</div>
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+
+                <div class="stepinforamtion">
+                    <h2>请输入电子邮箱验证码</h2>
+                    <p>通过邮箱找回密码，您将在电子邮箱里，收到如何找回密码的指令</p>
+                </div>
+
+                <div class="stepusing">
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/OeJIbD3.png">
+                        <div class="boxunderline">
+                            <input type="text" placeholder="电子邮箱" >
+                            <div class="nextbutton2 buttonbg2">发送验证码</div>
+
+                        </div>
+                    </div>
+                    <div class="usingbox usbox2">
+                        <img src="https://i.imgur.com/OeJIbD3.png" style="opacity: 0;">
+                        <div class="boxunderline">
+                            <input type="text" placeholder="请输入验证码" >
+                            <div class="nextbutton2 buttonbg" id="next3">下一步</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_content3" id="verification_newpassword">
+                <div class="noaccount">1.选择验证方式&nbsp;&nbsp;>&nbsp;&nbsp;2.输入验证&nbsp;&nbsp;<span>>&nbsp;&nbsp;3.重置密码</span></div>
+                <img src="https://i.imgur.com/9BLU9w5.png" class="xbtn">
+                <div class="line"></div>
+
+                <div class="stepinforamtion">
+                    <h2>重置安全性高的密码</h2>
+                    <p>通过邮箱找回密码，您将在电子邮箱里，收到如何找回密码的指令</p>
+                </div>
+
+                <div class="stepusing usbox2">
+                    <div class="usingbox">
+                        <div class="boxname">新密码</div>
+                        <div class="boxunderline2">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="usingbox usbox2">
+                        <div class="boxname">确认密码</div>
+                        <div class="boxunderline2">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <button class="nextbutton3" id="newpasssend" >提交</button>
+                </div>
+
+            </div>
+
+            <div class="pop_content3_bottom">
+                <p>登入时有任何问题，请联系线上沟通协助 或联系我们<br>
+                    本网站采用Global Trust最先进的128/256 bit SSL伺服器加密机制</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="announce">
+        <div class="announce_area">
+            <img src="https://i.imgur.com/mvzlGwr.png"/>
+            <marquee>亲爱的玩家您好，因BBIN游戏端异常，目前BBIN电子游戏现正维护中，请各位玩家勿尝试登入，若尝试登入，所有营利将视为套利，烦请各位玩家注意，祝各位玩家游玩愉快。</marquee>
+        </div>
+    </div>
+
+    <div class="rightfunction">
+        <div class="iconblock">
+            <div class="icon"><img src="https://i.imgur.com/z1yiBQj.png"></div>
+        </div>
+        <div class="contentblock">
+            <ul>
+                <a>
+                    <li class="topic">Live Chat</li>
+                    <li class="content">即时线上谘询</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="rightfunction" style="top: 307px;">
+        <div class="iconblock">
+            <div class="icon"><img src="https://i.imgur.com/YOXNwTO.png"></div>
+        </div>
+        <div class="contentblock">
+            <ul>
+                <a>
+                    <li class="topic">手机下注</li>
+                    <li class="content">扫描下载</li>
+                    <img src="https://i.imgur.com/85XsK2Q.png">
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="rightfunction" style="top: 364px;">
+        <div class="iconblock">
+            <div class="icon"><img src="https://i.imgur.com/dviMYqf.png"></div>
+        </div>
+        <div class="contentblock">
+            <ul>
+                <a>
+                    <li class="topic">桌面应用程式</li>
+                    <li class="content">点击下载</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="rightfunction" style="top: 421px;">
+        <div class="iconblock">
+            <div class="icon"><img src="https://i.imgur.com/9WsN17p.png"></div>
+        </div>
+        <div class="contentblock">
+            <ul>
+                <a>
+                    <li class="topic">简体中文</li>
+                    <li class="content">简体 繁體</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="rightfunction" style="top: 478px;">
+        <div class="iconblock">
+            <div class="icon"><img src="https://i.imgur.com/6yQwWQh.png"></div>
+        </div>
+        <div class="contentblock">
+            <ul>
+                <a>
+                    <li class="topic">清除缓存</li>
+                    <li class="content">点击清除</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="promotion_content">
+    <div class="content_inner">
+        <div class="memberpic">
+            <img src="https://i.imgur.com/YxflkmV.png">
+            <h3>YU CI</h3>
+            <p>( die***** )</p>
+        </div>
+        <div class="status">
+            <div class="space"></div>
+
+            <div class="member_status">
+                <div class="status_row">
+                    <img src="https://i.imgur.com/u5ahMNW.png">
+                    <p>安全指数</p>
+                    <div class="savenumberbg">
+                        <div class="savenumber"></div>
+                    </div>
+                    <div class="percent">60%</div>
+                </div>
+                <div class="status_row row_detail">
+                    <img src="https://i.imgur.com/hHGBjc1.png">
+                    <p>真实姓名：</p><span>黃育淇</span>
+                </div>
+                <div class="status_row row_detail">
+                    <img src="https://i.imgur.com/Yhsr0JC.png">
+                    <p>手机号码：</p><span>0987654321</span>
+                </div>
+                <div class="status_row row_detail">
+                    <img src="https://i.imgur.com/7Vbj2vC.png">
+                    <p>电子邮箱：</p><span>huafanowyu27@gmail.com</span>
+                </div>
+                <div class="status_row2 row_detail">
+                    <img src="https://i.imgur.com/Ow0f4Vl.png">
+                    <p>您好,您上次登录时间是<br>
+                        2017/12/28 11:43:00 中国香港新加坡 (GMT+8)</p>
+                </div>
+            </div>
+
+            <div class="balancearea">
+                <div class="balancetopic">
+                    <img src="https://i.imgur.com/WXKJkj9.png"><p>帐户馀额</p>
+                </div>
+                <div class="balancevalue">
+                    <p>¥ 653.37</p>
+                </div>
+                <div class="balancebutton">
+                    <p>储值</p>
+                    <p>提款</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="allbalance">
+            <div class="allbalancetopic">
+                <p>会员资金分配</p>
+                <div class="refresh">
+                    <img src="https://i.imgur.com/VfEoews.png">
+                    <p>更新资金</p>
+                </div>
+            </div>
+
+            <div class="totalmoney">
+                <div class="total1">
+                    <div class="totalname">总资金</div>
+                    <div class="totalvalue valuecolor1">¥1,479.54 </div>
+                </div>
+                <div class="total1">
+                    <div class="totalname">主帐户</div>
+                    <div class="totalvalue valuecolor2">¥ 643.37  </div>
+                </div>
+                <div class="total1">
+                    <div class="totalname">可提资金</div>
+                    <div class="totalvalue valuecolor2">¥ 0 </div>
+                </div>
+                <div class="total1">
+                    <div class="totalname">提款限额</div>
+                    <div class="totalvalue valuecolor2">¥ 1,912.094.36  </div>
+                </div>
+            </div>
+
+            <div class="detailtotal">
+                <div class="detailtotalbox boxcolor1">
+                    <p>IM 体育</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor2">
+                    <p>AG极速真人</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor3">
+                    <p>AG平台</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor4">
+                    <p>GNS电子</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor5">
+                    <p>GD平台</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor6">
+                    <p>BBIN平台</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor7">
+                    <p>如意彩票</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor8">
+                    <p>PT 电子</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor9">
+                    <p>JDB电子</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor10">
+                    <p>Allbet真人</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor11">
+                    <p>eBET真人</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor12">
+                    <p>PHARAOH真人</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor13">
+                    <p>PHARAOH金融</p>
+                    <p>¥ 0.00</p>
+                </div>
+                <div class="detailtotalbox boxcolor14">
+                    <p>MG电子</p>
+                    <p>¥ 0.00</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="funtionarea">
+            <div class="funtionarea_L">
+                <a href="＃"><div class="menubar menubar_selected">
+                    <img src="https://i.imgur.com/m8bjfny.png">
+                    <p>申请存款</p>
+                    <div class="trangle"></div>
+                </div></a>
+                <a href="6-5申請提款1.html"><div class="menubar ">
+                    <img src="https://i.imgur.com/0zcH8yo.png">
+                    <p>申请提款</p>
+                    <div class="trangle"></div>
+                </div></a>
+                <a href="6-6資金轉帳.html"><div class="menubar">
+                    <img src="https://i.imgur.com/UC3KiUz.png">
+                    <p>资金转帐</p>
+                    <div class="trangle"></div>
+                </div></a>
+                <a href="＃"><div class="menubar">
+                    <img src="https://i.imgur.com/YahvnLW.png">
+                    <p>帐户历史纪录</p>
+                    <div class="trangle"></div>
+                </div></a>
+                <a href="6-8紅利領取1.html"><div class="menubar">
+                    <img src="https://i.imgur.com/GGorZop.png">
+                    <p>红利领取</p>
+                    <div class="trangle"></div>
+                </div></a>
+            </div>
+
+
+
+            <div class="functionbox4">
+                <h4>尊敬的客户您好，请选择您的存款方式，并填写存款金额。</h4>
+
+                <div class="savemenu">
+                    <a href="6-4微信快捷1.html"><div class="savemenu_b">微信快捷支付</div></a>
+                    <a href="6-4支付寶1.html"><div class="savemenu_b">支付宝</div></a>
+                    <a href="6-4銀行轉帳1.html"><div class="savemenu_b">银行转帐</div></a>
+                    <a href="#"><div class="savemenu_b menu_b_selected">在线支付</div></a>
+                    <a href="6-4QQ錢包1.html"><div class="savemenu_b">QQ钱包</div></a>
+                </div>
+
+
+
+                <div class="verification_area">
+                    <h3 style="opacity: 0;">变更手机</h3>
+                    <div class="steparea">
+                        <div class="step_now">
+                            <div class="circle">1</div>
+                            <p>申请存款</p>
+                        </div>
+
+                        <div class="stepline line_null"></div>
+
+                        <div class="step_null">
+                            <div class="circle">2</div>
+                            <p>完成申请</p>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="inputarea verification_detail">
+                        <div class="informationbox6">
+                            <p>合作银行：</p>
+                        </div>
+                        <div class="moneyselect">
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/BQxEbnD.png">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/nt8xaoU.png">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/71GnkYS.png">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/0eY0tH2.png">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/gZ8Gnf9.png">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/Njvrf4f.png">
+                            </div>
+                            <div class="bankmore">更多银行</div>
+                        </div>
+
+
+                        <div class="moneyselect2">
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/nR1TUXp.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/ozUu8O7.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/58uLcoW.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/bLZj42w.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/fVUJf0y.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/ECz6jPv.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/oNjl6dz.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/snHrCYz.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/2upiMfA.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/tHsBxpI.jpg">
+                            </div>
+                            <div class="bankselect">
+                                <input type="checkbox">
+                                <img src="https://i.imgur.com/V42leIV.jpg">
+                            </div>
+                        </div>
+
+
+
+                        <div class="informationbox7">
+                            <p>存款金额：</p>
+                            <input type="text">
+                        </div>
+
+                    </div>
+
+                    <div class="inputarea">
+                        <div class="informationbox4">
+                            <p>贴心<br>提醒</p>
+                        </div>
+                        <div class="warningbox">
+                            <p>单笔存款限额（元）：<span>10.00 - 50,000.00</span></p>
+                            <p>在线支付-每日存款额（元）：5,000.00</p>
+                            <p>在线支付-今日已存金额（元）：0</p>
+                            <p>全平台-每日存款额（元）：99,999,999.00</p>
+                            <p>全平台-今日已存金额（元）：0</p>
+                        </div>
+                    </div>
+
+                    <div class="buttonarea">
+                        <a href="6-4在線支付2.html"><div class="send">提交</div></a>
+                        <p>您可到<span>帐户历史记录</span> 查询之前的存款交易内容</p>
+                    </div>
+
+                </div> <!--手機號碼修改*/-->
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="block">
+    <div class="footerinner">
+        <ul>
+            <h3>使用帮助</h3>
+            <a href="help-存款流程1.html"><li>存款流程</li></a>
+            <a href="help-提款流程.html"><li>提款流程</li></a>
+            <a href="help-註冊與登錄1.html"><li>如何开户</li></a>
+            <a href="help-存款FAQ.html"><li>常见问题</li></a>
+            <a href="help-WAP存款.html"><li>WAP版存款</li></a>
+        </ul>
+
+        <ul>
+            <h3>关于法老王娱乐</h3>
+            <a href="cooperation.html"><li>关于我们</li></a>
+            <a href="cooperation.html"><li>责任博彩</li></a>
+            <a href="cooperation.html"><li>条款及条件</li></a>
+            <a href="cooperation.html"><li>隐私权政策</li></a>
+            <a href="cooperation.html"><li>联系我们</li></a>
+        </ul>
+
+        <div class="ul2"></div>
+
+        <ul class="littleleft">
+            <h3>社交工具</h3>
+            <li><img src="https://i.imgur.com/2A2YpF5.png">
+                <a>QQ空间</a>
+            </li>
+            <li><img src="https://i.imgur.com/tLGrZfd.png">
+                <a>新浪微博</a>
+            </li>
+            <li><img src="https://i.imgur.com/KNqfsiG.png">
+                <a>微信</a>
+            </li>
+            <li><img src="https://i.imgur.com/CF0oGVQ.png">
+                <a>人人网</a>
+            </li>
+        </ul>
+
+        <div class="ul2 marginleft"></div>
+
+        <div class="cooplogoarea littleleft2">
+            <h3>合作厂商</h3>
+            <img class="logo1" src="https://i.imgur.com/SEodRAj.png">
+            <img class="logo2" src="https://i.imgur.com/ZhDLgcz.png">
+            <img  class="logo3" src="https://i.imgur.com/9Hxv1UO.png">
+            <img class="logo4" src="https://i.imgur.com/7wiuxWk.png">
+            <img class="logo5" src="https://i.imgur.com/dUZa2vz.png">
+            <img class="logo6" src="https://i.imgur.com/Pn7WcmW.png">
+        </div>
+
+        <div class="apparea">
+            <div class="app">
+                <img src="https://i.imgur.com/LdmwarW.png">
+                <p>自制浏览器<br>桌面应用程式点击下载</p>
+            </div>
+            <div class="app app2">
+                <img src="https://i.imgur.com/zol74AG.png">
+                <p>法老王娱乐城 APP
+                    iOS & Android</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>法老王娱乐属於 Richwell Global Technology 获得菲律宾第一卡格杨颁发牌照并受其监督版权所有 © 2016</p>
+        </div>
+
+    </div>
+
+
+
+</footer>
+<script src="js/indexjs.js"></script>
+
+<script>
+    $('.moneyselect2').hide();
+
+    $('.bankmore').click(function(){
+        $('.moneyselect2').show();
+        $('.bankmore').hide();
+    });
+</script>
+
+</body>
+</html>

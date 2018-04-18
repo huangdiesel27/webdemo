@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+p{font-family: 中黑體;}
+.memberpic{width: 160px;  background: rgba(51,51,51,0.85);
+           position: relative; z-index: 3; left: 70px; top:60px; text-align: center; box-shadow: 5px 5px 5px rgba(0,0,0,0.85);}
+.memberpic img{position: relative; margin: 35px 0 0 0px;}
+.memberpic h3{color: white; margin: 12px 0 0 0; font-weight: normal;}
+.memberpic p{color: white; margin: 0; font-weight: normal; padding-bottom: 30px;}
+
+.status{width: 1120px; height: 197px; background: rgba(0,0,0,0.7);
+        position: relative; margin: -115px auto 0 auto;}
+.space{width: 19%; height: 100%; float: left;}
+.member_status{width: 30%; height: 80%; border-right:solid 1px #979693;
+                position: relative; float: left; margin-top: 15px;}
+.status_row{width: 325px; height: 20px; box-sizing: border-box;
+            position: relative; margin-left: 10px; font-weight: lighter;}
+.row_detail{margin-top: 12px;}
+.status_row img{position: relative; margin-top: 3px; float: left;}
+.status_row p{color: white; float: left; margin: 1px 0 0 5px; font-size: 14px;}
+.status_row span{color: #fc8a04; font-size: 14px; position: relative; top: 1px;}
+.savenumberbg{width: 87px; height: 8px; background: white; position: absolute; left: 90px; top:6px; }
+.savenumber{width: 60%; height: 8px; background: #fc8a04; position: absolute; z-index: 5;}
+.percent{font-size: 12px; color: #fc8a04; position: absolute; left: 182px; top: 2px;}
+
+.status_row2{width: 325px; height: 20px; box-sizing: border-box;
+    position: relative; margin-left: 10px; font-weight: lighter;}
+.status_row2 img{position: relative; margin-top: 3px; float: left;}
+.status_row2 p{color:#cecece; float: left; margin: 1px 0 0 5px; font-size: 12px;}
+
+.balancearea{width: 50.5%; height: 100%; position: relative; float: right;}
+.balancetopic{position: relative; width: 30%; height: 25px; margin: 20px 0 0 20px; }
+.balancetopic img{position: relative; margin-top: 3px; float: left;}
+.balancetopic p{position: relative; color: white; font-size: 18px; font-weight: lighter; margin: 0 0 0 5px; float: left;}
+
+.balancevalue{position:relative; width: 100%; height: 30%; margin-top: 20px; text-align: center;}
+.balancevalue p{color: #fc8a04; font-family: Arial; font-weight: bold; font-size: 48px; margin: 5px 0 0 0; }
+.balancebutton{width: 100%; height: 20%; margin-top: 10px; box-sizing: border-box;}
+.balancebutton p{float: right; color: #979797; font-size: 12px; border: solid 1px #979797; padding: 5px 20px; margin: 5px 10px 0 0; border-radius: 5px; cursor: pointer; transition: 0.5s;}
+.balancebutton p:hover{background: #fc8a04; transition: 0.5s; border: solid 1px #fc8a04; color: white;}
+
+.allbalance{width: 1120px; height: 354px; background: rgba(0,0,0,0.8);
+            position:relative; margin: 10px auto 0 auto; }
+.allbalancetopic{width: 100%; height: 47px;}
+.allbalancetopic p{width: 120px; color: white; font-size: 18px; margin: 0 0 0 22px; font-weight: lighter; padding-top: 10px;}
+.refresh{width: 90px; height: 20px; position: absolute; right: 0; top: 13px; cursor: pointer; }
+.refresh img{position: relative; float: left; margin: 3px 7px 0 0;}
+.refresh p{color: #fc8a04; font-size: 14px; float: left; margin: 0; padding: 0; position: relative; width: 60px; }
+
+.totalmoney{width: 100%; height:150px; position: relative; }
+.total1{width: 264px; height: 134px; background: rgba(40,40,40,0.85); margin: 8px 0 0 13px; float: left;}
+.totalname{width:100px; color: white; font-size: 16px; font-weight: lighter; position: relative; margin: 0 0 0 10px;padding-top: 12px;}
+.totalvalue{width: 100%; height: 50px; text-align: center; font-size: 25px; font-weight: normal;  margin-top: 20px;}
+.valuecolor1{color: #ed1c24;}
+.valuecolor2{color: #fc8a04;}
+
+
+.detailtotal{width: 100%; height: 150px; position: relative; box-sizing: border-box;}
+.detailtotalbox{width: 146px; height: 62px; position: relative; box-sizing: border-box;margin: 10px 0 0 12px; float: left; padding-top: 10px;}
+.detailtotalbox p{font-size: 16px; margin: 0 0 0 12px; font-weight: lighter;}
+.boxcolor1{color:#cd2f2c; }
+.boxcolor2{color: #fc8a04;}
+.boxcolor3{color: #e3954d;}
+.boxcolor4{color: #cf9217;}
+.boxcolor5{color: #9b6947;}
+.boxcolor6{color: #bf8d6b;}
+.boxcolor7{color: #419365;}
+.boxcolor8{color: #6ca54f;}
+.boxcolor9{color: #82bb67;}
+.boxcolor10{color: #5385cc;}
+.boxcolor11{color: #70a0e6;}
+.boxcolor12{color: #62bee1;}
+.boxcolor13{color: #7b66b5;}
+.boxcolor14{color: #957fcc;}
+
+.funtionarea{width: 1120px; height: auto; margin: 10px auto 0 auto;}
+.funtionarea_L{width: 180px; height: 220px; box-sizing: border-box; position: relative; float: left; }
+.menubar{width: 180px; height: 55px; background: rgba(51,51,51,0.7); cursor: pointer; transition: 0.5s;}
+.menubar_selected{background: #fc8a04; box-shadow: 0 3px 3px rgba(0,0,0,0.7); transition: 0.5s;}
+.menubar_selected > .trangle{opacity: 1; transition: 0.5s;}
+.menubar img{position: relative; float: left; margin: 19px 0 0 42px;}
+.menubar p{color: white; font-size: 16px; font-weight: lighter; margin: 17px 0 0 10px; float: left; letter-spacing: 1px;}
+.trangle{
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute; right: -22px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27.5px 0 27.5px 22px;
+    border-color: transparent transparent transparent #fc8a04; }
+
+.functionbox{width:940px; height: auto;background: rgba(0,0,0,0.7); border: #fc8a04 solid 1px; box-sizing: border-box;  float: left; margin-bottom: 30px; }
+.functionbox p{ width:780px; height: auto; margin: 40px auto 30px auto; color: white; font-size: 13px; font-weight: lighter; }
+.steparea{width: 780px; height: 130px; margin: 0 auto; position: relative; }
+.step_now{width: 50%; height: 100%; box-sizing: border-box; float: left; position: relative; }
+.step_now .circle{width: 70px; height: 70px; border-radius: 99em; background-color: #fc8a04; border: solid 3px #ffffff; box-sizing: border-box;
+    color:white;font-size: 45px; text-align: center; font-weight: bold;  margin: 15px auto 10px auto;}
+.step_now p{width:100%; height:20px; color: white; font-size: 14px; text-align: center; font-weight: lighter; margin: 0;}
+
+.stepline{position: absolute; width: 323px; height: 5px; top: 45px;  border-bottom:solid 1px;}
+.line_null{border-color: #707070; left: 230px;}
+.line_now{border-color: #ffffff; left: 230px;}
+
+.step_null{width: 50%; height: 100%; box-sizing: border-box; float: left;}
+.step_null .circle{width: 70px; height: 70px;background: none; border-radius: 99em; border: solid 3px #707070; box-sizing: border-box;
+    color:#707070;font-size: 45px; text-align: center; font-weight: bold;  margin: 15px auto 10px auto;}
+.step_null p{width:100%; height:20px; color: #707070; font-size: 14px; text-align: center; margin: 0;}
+
+.inputarea{width: 780px; height: auto; position: relative; margin: 0 auto 10px auto; padding-top: 2px; overflow: auto; }
+.informationbox{width: 350px; height: 27px; margin: 8px 0 8px 35px; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox2{width: 350px; height: 45px; margin: 8px 0 8px 35px; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox p{color: white; font-size: 14px; font-weight: lighter; width: 92px; margin: 3px 0 0 0; position: relative; float: left;}
+.informationbox2 p{color: white; font-size: 14px; font-weight: lighter; width: 92px; margin: 3px 0 0 0; position: relative; float: left;}
+.informationbox2 span{color: white; float: left;margin-top: 2px;}
+.inputsize{width:246px; position:relative; float: left; margin: 3px 0 0 0;}
+.inputsize2{width:116px; position:relative; float: left; margin: 3px 0 0 0;}
+.telenum{position: relative; float: left;margin-top:3px; width: 40px;height: 21px; }
+.country{width:246px; position:relative; float: left; margin: 3px 0 0 0;}
+.date{width:79px; position:relative; float: left; margin: 3px 0 0 0;}
+.datedetail{margin-left: 8px;}
+.town{width: 100px;}
+.optiondetail{margin-left: 20px;}
+
+.buttonarea{width: 780px; height: 100px; position: relative; margin: 0 auto; padding-top: 10px;}
+.send{color: white; font-size: 16px; font-weight: lighter; letter-spacing: 5px; width: 50px; background: #ff5447;text-align: center; padding: 10px 33px; border-radius: 5px; cursor: pointer;
+      float: right; margin: 20px 15px 0 0; }
+.buttonarea p{color: #707070; float: right; font-size: 15px; margin: 30px 10px 0 0;}
+.buttonarea span{color: #fc8a04;}
+/*安全中心*/
+.functionbox2{width:940px; height: auto;background: rgba(0,0,0,0.7); border: #fc8a04 solid 1px; box-sizing: border-box;  float: left; margin-bottom: 30px; }
+.functionbox2 h3{width:780px; height: auto; margin: 25px auto; color: #fc8a04; font-size: 24px; text-align: center; letter-spacing: 2px;}
+
+
+.savemenu{width: 792px; height: 40px; position: relative; box-sizing: border-box; margin: 0 auto; }
+.savemenu_b{width: 150px; height: 37px; border:solid 1px #fc8a04; position: relative; box-sizing: border-box; text-align: center;
+            color: white; font-size: 15px; font-weight: lighter; line-height: 34px; margin-right: 8px; float: left; cursor: pointer;transition: 0.5s;}
+.savemenu_b:hover{background: #fc8a04; transition: 0.5s;}
+.menu_b_selected{background: #fc8a04;}
+
+.verification_area{width: 792px; height: auto; position: relative; margin: 0px auto 50px auto;  box-sizing: border-box;}
+.verification_p{width:780px; height: auto; margin: 10px auto; color: white; font-size: 13px; font-weight: lighter;}
+.verification{width: 720px; height: 30px; position: relative; margin: 18px auto 37px auto; box-sizing: border-box;}
+.verification_detail{margin-top: 40px;}
+.verification_detail2{margin-top: 20px;}
+.verification_type{width:640px; height: 28px; color: white; font-size: 14px; font-weight: lighter; border-bottom: solid 1px #959492; box-sizing: border-box; line-height: 25px; float: left;}
+.verification_button{position:relative; float: right; color: white; font-size: 14px; font-weight: lighter; padding: 4px 20px; border-radius: 3px; cursor: pointer; letter-spacing: 2px; }
+.verbg1{background: #fc8a04;}
+.verbg2{background: #ff5447;}
+
+
+.verification_text{width: 600px; height: auto; position: relative; margin: 0 auto 10px auto; padding-top: 2px; overflow: auto; }
+.verification_text h2{margin: 15px 0 0 0; font-size: 30px; }
+.verification_text p{color:white; font-weight: lighter; margin: 0;}
+.verification_text span{color: #ff5447; cursor: pointer;}
+.verification_OK{color: white; font-weight: lighter;}
+.sendverification{position: absolute; color: white; width: 92px; height: 23px; background: #fc8a04;  border-radius: 3px; font-size: 13px; font-weight: lighter;
+                  top:40px; left: 127px; text-align: center; line-height: 22px; cursor: pointer;}
+.changenum{position: relative; color: white; width: 100px; height: 23px; background: #fc8a04;  border-radius: 3px; font-size: 13px; font-weight: lighter;
+           text-align: center;  margin-top: 15px; float: right; line-height: 22px; cursor: pointer;}
+.changenum2{position: relative; color: white; width:110px; height: 23px; background: #fc8a04;  border-radius: 3px; font-size: 13px; font-weight: lighter;
+            text-align: center;  margin-top: 15px; float: left; line-height: 22px; cursor: pointer;}
+
+.step_now_3{width: 33%; height: 100%; box-sizing: border-box; float: left; position: relative; }
+.step_now_3 .circle{width: 70px; height: 70px; border-radius: 99em; background-color: #fc8a04; border: solid 3px #ffffff; box-sizing: border-box;
+    color:white;font-size: 45px; text-align: center; font-weight: bold;  margin: 15px auto 10px auto;}
+.step_now_3 p{width:100%; height:20px; color: white; font-size: 14px; text-align: center; font-weight: lighter; margin: 0;}
+
+.stepline_3{position: absolute; width: 187px; height: 5px; top: 45px;  border-bottom:solid 1px;}
+.line_null_2{border-color: #707070; left: 164px;}
+.line_now_2{border-color: #ffffff; left: 164px;}
+.line_null_3{border-color: #707070; left: 421px;}
+.line_now_3{border-color: #ffffff; left: 421px;}
+
+.step_null_3{width: 33%; height: 100%; box-sizing: border-box; float: left;}
+.step_null_3 .circle{width: 70px; height: 70px;background: none; border-radius: 99em; border: solid 3px #707070; box-sizing: border-box;
+                     color:#707070;font-size: 45px; text-align: center; font-weight: bold;  margin: 15px auto 10px auto;}
+.step_null_3 p{width:100%; height:20px; color: #707070; font-size: 14px; text-align: center; margin: 0;}
+
+.prompt{color: #707070; font-size: 13px; position: absolute; left: 223px; top: 29px;}
+
+/*消息公告*/
+.functionbox3{width:940px; height: auto;background: rgba(0,0,0,0.7); border: #fc8a04 solid 1px; box-sizing: border-box;  float: left; margin-bottom: 30px; }
+.messagearea{width: 790px; height: 480px; position: relative; margin: 20px auto; padding-top:20px; }
+.message_select{position: relative; width: 410px; height: 80px; margin: 20px 0; cursor: pointer;}
+.message_date{position:relative; width: 72px; height: 75px; margin-top: 1px;  float: left;}
+.message_date p{color: white; font-size: 15px; font-weight: lighter; letter-spacing: 1px; margin: 0 -4px 0 10px; border-right: solid 2px #878787; }
+.message_date span{letter-spacing: 5.5px; }
+.message_date img{position:relative; margin: 5px 0 0 25px; cursor: pointer;}
+
+.message_topic{position: relative; width:285px; height: 72px; border-bottom:solid 1px #878787; float: left; margin: 1px 0 0 25px; }
+.message_topic p{color: white; font-size: 15px; font-weight: lighter; margin: 0; letter-spacing: 2px;}
+.message_topic h4{color: #fc8a04; font-size: 14px; margin: 0; font-weight: lighter; letter-spacing: 1px;}
+
+.messagehover{ position: relative; margin-top: 30px; float: right; opacity: 0;}
+
+.message_select:hover > .message_date p{border-right: solid 2px #fc8a04; transition: 0.5s;}
+.message_select:hover > .message_topic{border-bottom:solid 1px #fc8a04; transition: 0.5s;}
+.message_select:hover > .messagehover{opacity: 1; transition: 0.5s;}
+
+.message_page{position: relative; width: 195px; height: 30px; margin-left: 110px; }
+.message_page_L{float: left; cursor: pointer;}
+.message_page_R{position: absolute; right: 0; top: 0; cursor: pointer;}
+.message_circle{position:relative; width: 7px; height: 7px; border-radius: 99em; border: #fc8a04 1px solid; margin:6px 5px 0 5px; float: left; cursor: pointer;}
+.selected{background: #fc8a04;}
+.message_circle_detail{margin-left: 22px;}
+
+.message_content{position:absolute; width: 360px; height: 425px; right: 0; top:30px; overflow: auto; }
+.message_content p{color: white; font-size: 14px; font-weight: lighter;}
+
+/*微信快捷*/
+.functionbox4{width:940px; height: auto;background: rgba(0,0,0,0.7); border: #fc8a04 solid 1px; box-sizing: border-box;  float: left; margin-bottom: 30px; }
+.functionbox4 h3{color: white; text-align: left; font-weight: lighter; margin: 20px auto;}
+.functionbox4 h4{color: white; text-align: center; font-weight: lighter; margin: 20px auto;}
+.functionbox4 h2{color: white; text-align: center;font-size: 22px; font-weight: lighter; margin: 30px auto 20px auto;}
+.informationbox3{width: 70px; height: 272px; margin: 8px 0 8px 35px; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox3 p{color: white; font-size: 14px; font-weight: lighter; width: 92px; margin: 3px 0 0 0; position: relative; float: left;}
+.moneyselect{width: 670px; height: auto; position: relative; float: right;  }
+.moneyselect2{width: 670px; height: auto; position: relative; float: right;  }
+.moneybox{width: 110px; height: 50px; background: #707070; border-radius: 10px; position: relative; margin: 10px 10px;  cursor: pointer; float: left;}
+.moneybox p{color: white; font-size: 24px; text-align: center; margin: 0; line-height: 50px; font-weight: lighter;}
+.moneybox:hover{background: #fc8a04; transition: 0.5s;}
+.boxselected{background: #fc8a04;}
+
+.informationbox4{width: 52px; height: 108px; margin: 8px 0 8px 35px; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox4 p{color: white; font-size: 16px; font-weight: lighter; width: 52px; height: 48px; background: #ff7747; margin: 3px 0 0 0; position: relative; float: left; text-align: center; padding-top: 4px;}
+.warningbox{width: 691px; height: 108px; position: relative; float: right; border: solid 1px #ff7747; margin:11px 0 0 0; color: white;font-size: 12px; font-weight: lighter;}
+.warningbox p{width: 315px; height: 25px; font-size: 15px; color: white; position: relative; font-weight: lighter; margin:8px 0 0 15px; float: left; }
+.warningbox span{color:#ff7747;}
+.informationbox5{width: 770px; height: auto; margin: 8px 0; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox5 p{color: white; font-size: 14px; font-weight: lighter; margin: 0;}
+.informationbox5 span{color: #ff5447;}
+.informationbox5 h3{font-weight: lighter; font-size: 24px; margin: 5px 0;}
+
+.ordertopicarea{width: 778px; height: 40px; position: relative;}
+.ordertopicarea p{color: white; font-size: 18px; font-weight: lighter; margin: 7px 0 0 0;}
+.ordertopic_L{float: left;}
+.ordertopic_R{float: right;}
+.ordertopic_R span{color: #fc8a04;}
+
+.orderdetailarea{width: 778px; height: auto; position: relative;}
+.ordertopic{width: 170px; height: 80px; background: #707070; color: white; font-size: 16px; font-weight: lighter; line-height: 80px; text-align: center; float: left; margin-bottom: 3px;}
+.ordertopic2{width: 170px; height: 39px; background: #707070; color: white; font-size: 16px; font-weight: lighter; line-height: 5px; text-align: center; float: left; margin-bottom: 3px;}
+.ordertopic3{width: 170px; height: 50px; background: #707070; color: white; font-size: 14px; font-weight: lighter; line-height: 50px; text-align: center; float: left; margin-bottom: 3px;}
+.topic3_bot{margin-bottom: 100px;}
+.ordertext{width: 170px; height: 80px; border: solid 1px #707070; box-sizing: border-box; color: white; font-size: 14px; font-weight: lighter; text-align: center; float: left; margin-bottom: 3px;}
+.ordertex2{width: 170px; height: 39px; border: solid 1px #707070; box-sizing: border-box; color: white; font-size: 14px; font-weight: lighter; text-align: center; float: left; margin-bottom: 3px;}
+.ordertex3{width: 170px; height: 50px; border: solid 1px #707070; box-sizing: border-box; color: white; font-size: 14px; font-weight: lighter; text-align: left; float: left; margin-bottom: 3px; padding: 15px 0 0 60px;}
+.ordertext p{margin: 30px 0 0 0;}
+.ordertex2 p{margin: 10px 0 0 0;}
+.ordertext img{position: relative; float: left; margin: 3px 0 0 49px;}
+.timeareainput{width: 220px; margin: 15px 0 10px 0;}
+.timeareainput2{width: 220px;}
+.timeareainput3{width: 220px; margin: 8px 0 0 0;}
+.ordertime{margin: 20px 0 0 0;}
+.ordertime span{color: #ffcc00; font-size: 18px;}
+.textwidth{width: 268px;}
+.textwidth2{width: 608px;}
+.textwidth3{width: 608px; margin-bottom: 50px;}
+.reciprocalarea{width: 242px; height: 50px; position: relative; float: right; margin: 0; padding: 0;}
+.reciprocalbox{width: 30px; height: 42px; border: solid 1px white; border-radius: 5px; position: relative; margin: 5px 0 0 5px; float: left; color: #fc8a04; font-size: 30px; font-weight: normal; text-align: center;}
+.reciprocalbox_detail{margin-left: 15px;}
+.reciprocaltext{color: white; font-weight: lighter; float: right; margin: 15px 5px 0 0; font-size: 18px;}
+.reciprocaltext2{color: #fc8a04; font-weight: lighter;  margin: 15px 5px 0 0; font-size: 14px; position: relative; margin: 60px 0 0 0; }
+.send2{color: white; font-size: 16px; font-weight: lighter; letter-spacing: 2px; width: auto; background: #ff5447;text-align: center; padding: 10px 25px; border-radius: 5px; cursor: pointer;
+       float: left; margin: 5px 15px 0 0; }
+
+
+.informationbox6{width: 70px; height: 88px; margin: 8px 0 8px 35px; position: relative; float: left;color: white; font-size: 14px; font-weight: lighter;}
+.informationbox6 p{color: white; font-size: 14px; font-weight: lighter; width: 92px; margin: 3px 0 0 0; position: relative; float: left;}
+.bankselect{width: 180px; height: 38px; position: relative;  float: left; margin: 7px 10px;}
+.bankselect input{position:relative; float: left; margin: 13px 0 0 14px;}
+.bankselect img{position: relative; float: right; margin: 1px 5px 0 0;}
+
+.informationbox7{width: 720px; height: 25px; margin: 10px 0 10px 0px; position: relative; float: left; color: white; font-size: 14px; font-weight: lighter;}
+.informationbox7 p{color: white; font-size: 14px; font-weight: lighter; width: 130px;  margin: 3px 0 0 0; position: relative; float: left;}
+.informationbox7 select{width: 117px; height: 25px; margin-right: 10px;}
+.informationbox7 span{color: #ff7747;margin-top: 3px;}
+.informationbox7 input{width: 240px;}
+
+.informationbox8{width: 770px; height: 22px; margin: 10px 0 10px 0px; position: relative; float: left; color: white; font-size: 14px; font-weight: lighter;}
+.textareaheight{height:90px; }
+.textareaheight2{height:50px; }
+.informationbox8 p{color: white; font-size: 14px; font-weight: lighter; width: 130px;  margin: 1px 0 0 0; position: relative; float: left;}
+.informationbox8 select{width: 240px;  margin-right: 10px; position: relative; float: left;}
+.informationbox8 input{width: 240px;}
+.informationbox8 textarea{position: relative;}
+.annotation{color: #fc8a04; font-size: 14px; font-weight: lighter; position: relative; float: left; margin:6px 0 40px 0;}
+.bankmore{position: relative; width: 93px; height: 27px; text-align: center;color: white; background: #fc8a04; border-radius: 3px;  font-size: 12px; font-weight: lighter; margin: 110px 0 20px 50px; line-height: 28px; cursor: pointer;}
+.receipt{position: relative; width: 195px; height: 50px; border: solid 1px white; text-align: center; font-size: 16px; font-weight: lighter; line-height: 50px; box-sizing: border-box; float: left;}
+.receiptbot{margin-bottom: 20px;}
+.fontcolor{color: white;}
+.fontcolor2{color: #fc8a04;}
+
+.informationbox9{width: 720px; height: 60px; margin: 10px 0 10px 0px; position: relative; float: left; color: white; font-size: 14px; font-weight: lighter;}
+.box9topic{color: white; font-size: 14px; font-weight: lighter; width: 130px;  margin: 3px 0 0 0; position: relative; float: left;}
+.box9annotation{color: white; font-size: 14px; font-weight: lighter; margin-top: 3px;float: left; }
+.informationbox9 input{width: 240px; margin:0 20px 0 0; float: left;}
+.informationbox9 span{color: #fc8a04; cursor: pointer; margin: 0; }
+.smallkeyboard{position:relative; color: #fc8a04; cursor: pointer; margin:-15px 0 0 130px; float: left;}
+
+.yesornobg{width: 354px; height: 308px; background: rgba(0,0,0,0.9); border-radius: 10px; border: solid 1px #fc8a04; position: absolute; left: 38%; top:32%; }
+.yesornobg h6{color: white; font-size: 24px; font-weight: lighter; text-align: center;  margin:100px 0 0 0 ;}
+.yesornobg p{color: white; font-weight: lighter; text-align: center; margin: 20px 0 0 0; }
+.yesnobutton{width: 177px; height: 58px;  border-color: #fc8a04; border-width: 1px; box-sizing: border-box;
+             position: absolute; bottom: 0; color: #fc8a04; text-align: center; font-size: 18px; font-weight: lighter; letter-spacing: 2px;line-height: 55px; cursor: pointer; }
+.nobutton{border-radius: 0 0 0 10px; border-style:solid solid none none;}
+.yesbutton{right: 0; border-radius: 0 0 10px 0; border-style:solid none none none;}
+.yesnobutton:hover{background: #fc8a04; color: white; transition: 0.5s;}
+
+.translatedbg{width: 650px; height: 565px; background: rgba(0,0,0,0.9); border-radius: 10px; border: solid 1px #fc8a04; position: absolute; left: 32%; top:20%;}
+.translatedbg h6{color: white; font-size: 22px; font-weight: lighter; position: relative; margin:45px 0 0 30px;}
+.translatedbg p{color: white; font-size: 16px; font-weight: lighter; position: relative; margin:0 0 20px 30px;}
+.translatedbg span{color: #fc8a04;}
+
+.formtopic{width: 594px; height: 50px; position: relative; margin: 0 0 0 30px; padding: 0; box-sizing: border-box;}
+.formtopic li{width: 146px; height: 50px; position: relative; text-align: center; line-height: 50px; float: left; font-size: 15px; background: #464646; color: white; margin: 0 2px 0 0;}
+
+.formcontent{width: 590px; height: 350px; margin: 0 0 0 30px; overflow: auto; overflow-x: hidden;}
+
+.form_row{width: 594px; height: 50px; position: relative; margin:0; padding: 0; box-sizing: border-box;}
+.formcontent li{width: 148px; height: 50px; position: relative; text-align: center; line-height: 50px; float: left; border-bottom: solid 1px #464646; font-size: 14px;}
+.form_succed{color: #22ac38;}
+.form_normal{color: white;}
+.form_wrong{color: #e60012;}
+
+.informationbox10{width: 770px; height: 22px; margin: 0px 0 10px 0px; position: relative; float: left; color: white; font-size: 14px; font-weight: lighter;}
+
+.informationbox10 p{color: white; font-size: 14px; font-weight: lighter; width: 80px;  margin: 1px 0 0 0; position: relative; float: left;}
+.box10select_big{width: 200px;  position: relative; float: left;}
+.big_detail{margin:0px 50px 0 0;}
+.box10select_small{width: 70px; margin:0px 10px 0 0; position: relative; float: left;}
+.informationbox10 button{float: left; width: 67px; height: 20px; background: #ff5447; color: white; font-size: 12px; letter-spacing: 2px; font-weight: lighter; border: none; border-radius: 5px; margin-left:5px; }
+
+.searchinsult{width: 770px; height: auto; position: relative; margin:30px 0 60px 0; padding-bottom: 50px;}
+.topicinsult{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.topicinsult li{width: 110px; height: 36px; background: #fc8a04; color: black; font-size: 16px; font-weight: normal; line-height: 36px; text-align: center; float: left;}
+.insult1{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.insult1 li{width: 110px; height: 36px; color: white; font-size: 12px; font-weight: lighter; line-height: 36px; text-align: center; float: left;}
+.insult2{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.insult2 li{width: 110px; height: 36px; color: white; background: rgba(255,145,8,0.15); font-size: 12px; font-weight: lighter; line-height: 36px; text-align: center; float: left;}
+
+.balancepop{cursor: pointer;}
+
+.searchpopbg{width: 733px; height: 565px; background: rgba(0,0,0,0.9); border-radius: 10px; border: solid 1px #fc8a04; position: absolute; left: 32%; top:20%;}
+.searchpopbg p{color: white; font-size: 16px; font-weight: lighter; position: relative; margin-left:30px;}
+.searchp1{margin: 50px 0 0 0;}
+.searchp2{margin: 10px 0 20px 0;}
+.searchtopic{width: 675px; height: 50px; position: relative; margin: 0 0 0 30px; padding: 0; box-sizing: border-box;}
+.searchtopic li{width: 133px; height: 50px; position: relative; text-align: center; line-height: 50px; float: left; font-size: 15px; background: #464646; color: white; margin: 0 2px 0 0;}
+
+.searchcontent li{width: 133px; height: 50px; position: relative; text-align: center; color: white; line-height: 50px; float: left; border-bottom: solid 1px #464646; font-size: 12px;}
+.search_row{width: 675px; height: 50px; position: relative; margin:0 0 10px 30px; padding: 0; box-sizing: border-box;}
+.search_row p{line-height: 25px; font-size: 12px; margin: 1px 0 0 0; }
+
+.bonusbox{width: 770px; height: 150px; position: relative; box-sizing: border-box; margin: 10px auto;}
+.bonuscontent{width: 745px; height: 133px; position: relative; border-radius: 10px; margin-top: 7px; box-shadow: 0 1px 5px;
+              background: -webkit-linear-gradient(left,#2c2c2c,#1a1a1a);
+              background: -o-linear-gradient(right,#2c2c2c,#1a1a1a);
+              background: -moz-linear-gradient(right,#2c2c2c,#1a1a1a);
+              background: linear-gradient(to right,#2c2c2c,#1a1a1a);}
+.receivebutton{width: 57px; height: 57px; border-radius: 5px; background: rgba(252,138,4,0.85); position: absolute; z-index: 5; right: -30px; top: 38px; cursor: pointer; box-shadow: 0 3px 6px;}
+.receivebutton p{color: white; font-weight: lighter; line-height: 20px; letter-spacing: 2px; margin: 8px 0 0 11px;}
+
+.bonusdetail{width: 545px; height: 108px; position: relative; border-style: none solid none none; border-width: 1px; border-color: #fc8a04; margin: 12px 0 0 17px; box-sizing: border-box; float: left;}
+.nameandtime{width: 100%; height: 30px; position: relative; box-sizing: border-box; margin-top: -2px;}
+.nameandtime h6{color: #fc8a04; font-size: 24px; font-weight: 200; position: relative; float: left; margin: 0;}
+.timelimit{position: relative; width:auto; height: 28px;float: left; margin-left: 20px;}
+.timelimit img{float: left; margin-top: 7px;}
+.timelimit p{color: white; float: left; margin: 5px 0 0 8px; font-size: 14px; font-weight: lighter;}
+
+.bonuspercent{width: 95%; height: 80px; position: relative; box-sizing: border-box;}
+
+.percenttext{ width: 100%; height: 18px; position: relative; margin: 15px 0 7px 0;}
+.percenttext p{color: #a2a2a2; font: 12px; font-weight: lighter; float: left; margin: 0;}
+.percenttext span{color: #a2a2a2;float: right;font-weight: lighter;}
+
+.percentline{ width: 100%; height: 18px; position: relative; background: white; color: #fc8a04; text-align: center; font-size: 12px; font-weight: 500; }
+.percentline_now{ height: 18px; position: absolute; z-index: 3; background: #fc8a04; top:0;}
+.nowvalue{width: 30%;}
+.nowvalue2{width: 100%;}
+.percent_nowvalue{height: 18px; color: white; font-size: 12px; font-weight: 500; position: absolute; z-index: 4;top: 0; left: 215px; }
+
+
+.percenttext2{ width: 100%; height: 18px; position: relative;margin-top: 2px;}
+.percenttext2 p{font-size: 14px; letter-spacing: 1px; position: relative; float: left; margin: 0; color: white; font-weight: normal;}
+.percenttext2 span{float: right; color: white;}
+
+.bonusvalue{width: 154px; height: 108px; float: left; margin-top:12px; box-sizing: border-box; padding-left: 5px; }
+.bonusvalue p{color: #ff5448; text-align: center; letter-spacing: 2px;}
+.bonusvalue span{font-size: 50px;}
+
+.bonusinsult{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.bonusinsult li{width: 154px; height: 36px; background: #fc8a04; color: black; font-size: 16px; font-weight: normal; line-height: 36px; text-align: center; float: left;}
+.bonusinsult1{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.bonusinsult1 li{width: 154px; height: 36px; color: white; font-size: 12px; font-weight: lighter; line-height: 36px; text-align: center; float: left;}
+.bonusinsult1 img{position: relative; margin-top: -3px; vertical-align: middle;}
+.bonusinsult2{width: 100%; height: 36px; position: relative; margin: 0; padding: 0;}
+.bonusinsult2 li{width: 154px; height: 36px; color: white; background: rgba(255,145,8,0.15); font-size: 12px; font-weight: lighter; line-height: 36px; text-align: center; float: left;}
+.bonusinsult2 img{position: relative; margin-top: -3px; vertical-align: middle;}
+
+.conditionbg{width: 354px; height: 308px; background: rgba(0,0,0,0.9); border-radius: 10px; border: solid 1px #fc8a04; position: absolute; left: 38%; top:32%;}
+.conditionicon{position: absolute; left: 13px; top:13px;}
+.conditionbg h6{color:#fc8a04 ; font-size: 24px; font-weight: lighter; text-align: center;  margin:100px 0 0 0 ;}
+.conditionbg p{width: 210px; color: white; font-weight: lighter; text-align: left; margin: 10px auto 0 auto; }
+.conditionbg hr{border-color: #fc8a04; border-width: 1px; width: 92.5%; position: absolute; top:35px; left: 13px;}
